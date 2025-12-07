@@ -1,8 +1,6 @@
 class UjiPengguna {
     public static void main(String[] args) {
-        // Buat objek pengguna dan isi datanya sesuai data uji coba
-        // Panggil method tampilInfo
-        // Tampilkan demonstrasi tentang konstanta final
+        Pengguna pengguna = new Pengguna(25, 60, 180);
+        pengguna.tampilInfo();
     }
 }
-

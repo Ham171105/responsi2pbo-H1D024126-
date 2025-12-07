@@ -9,3 +9,10 @@
 4. Bagaimana keyword super membantu membedakan atribut yang memiliki nama sama antara parent dan child?
 
 5. Mengapa pendekatan inheritance lebih efisien dibanding menyalin ulang seluruh atribut dan method ke dalam class Member?
+
+jawab
+1.Karena Member adalah turunan dari Customer, maka sebelum bagian milik Member dibuat, data yang berasal dari Customer wajib diproses dulu. Pemanggilan super(...) memastikan objek induknya sudah terbentuk dan siap digunakan.
+2.Saat method di-override, kode asli milik superclass akan tertutup. Dengan memanggil super.tampilkanInfo(), subclass tetap bisa menggunakan output atau logika bawaan parent, lalu menambahkan bagian yang lebih spesifik untuk subclass tanpa kehilangan informasi sebelumnya.
+3.super.method() sangat berguna ketika subclass perlu memperluas fungsi dari method induk, bukan menggantinya. Contohnya: class PremiumMember menghitung harga akhir dengan memanggil perhitungan dasar dari parent terlebih dahulu, baru ditambahkan benefit seperti cashback atau diskon tambahan.
+4.Kalau parent dan child punya atribut dengan nama identik, keyword super digunakan untuk merujuk atribut milik superclass.
+5.Dengan inheritance, subclass otomatis mendapatkan fitur dari parent tanpa menulis ulang kode. Ini mengurangi duplikasi, mempermudah maintenance, dan ketika ada perubahan di superclass, otomatis berdampak ke subclass tanpa perombakan besar.

@@ -1,9 +1,9 @@
 # Responsi 2 - Praktikum Pemrograman Berorientasi Objek
 
-**Dibuat oleh:** [Nama Anda]  
-**NIM:** [NIM Anda]  
-**Shift Baru:** [Shift Anda]    
-**Shift KRS:** [Shift Anda]
+**Dibuat oleh:** [Moahamd Ilham Huda Saputra]  
+**NIM:** [H1D024126]  
+**Shift Baru:** [D]    
+**Shift KRS:** [C]
 
 ---
 

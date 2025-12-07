@@ -7,3 +7,8 @@ Apa yang terjadi jika kita mencoba mengubah nilai suatu konstanta setelah objek 
 Bagaimana cara mendefinisikan konstanta dalam bahasa Java?
 
 Jawaban
+1.Dalam OOP, sebuah function adalah metode yang memiliki return value, artinya setelah proses dijalankan, function akan mengembalikan suatu hasil (misalnya angka atau teks).
+  Sementara itu, procedure atau metode dengan tipe void hanya menjalankan aksi tertentu tanpa mengembalikan nilai. Biasanya digunakan untuk menampilkan output atau mengubah data, bukan menghasilkan nilai.
+2.Menggunakan konstanta membantu menjaga agar suatu nilai yang sifatnya tetap tidak berubah secara tidak sengaja selama program berjalan. Dengan begitu, kode jadi lebih aman, mudah dipahami, dan dapat mencegah bug yang muncul akibat perubahan nilai yang seharusnya tetap.
+3.Jika kita mencoba mengubah nilai variabel yang sudah ditandai dengan final, maka Java akan menolak perubahan tersebut dan memunculkan error saat kompilasi.
+4.Di Java, konstanta ditulis menggunakan keyword final, dan biasanya diberi nama dengan huruf kapital agar mudah dikenali.

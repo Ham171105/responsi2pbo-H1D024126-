@@ -8,3 +8,10 @@ Jelaskan konsep encapsulation dan bagaimana method dapat membantu melindungi dat
 Mengapa constructor tidak memiliki return type, bahkan tidak menggunakan kata kunci void?
 
 Jawaban
+1.Constructor overloading adalah kondisi ketika sebuah kelas memiliki beberapa constructor dengan nama yang sama, tetapi parameternya berbeda. Bedanya bisa dari jumlah parameter, tipe datanya, atau urutan parameternya. Tujuannya supaya objek bisa dibuat dengan fleksibilitas yang berbeda sesuai kebutuhan.
+2.Java tidak melihat nama constructor karena semuanya pasti sama dengan nama kelas.
+  Jadi, Java membedakannya berdasarkan parameter list atau yang disebut signature. Selama struktur parameternya berbeda, Java tahu constructor mana yang harus dipanggil.
+3.Kalau variabel diubah langsung lewat objek.variable = nilai, tidak ada aturan atau pengecekan. Data bisa berubah bebas, bahkan jika nilai baru tidak valid.
+  Sedangkan kalau lewat setter, kita bisa tambahkan logika—misalnya cek batas nilai atau kondisi tertentu—jadi data tetap terjaga dan tidak asal berubah.
+4.Encapsulation adalah prinsip OOP yang menyembunyikan detail data agar tidak bisa diakses sembarangan dari luar kelas. Dengan menggunakan getter dan setter, akses data jadi lebih aman karena perubahan dan pengambilan datanya bisa diatur melalui method, bukan langsung ke variabel.
+5.Constructor tugasnya bukan menghasilkan nilai seperti method biasa, tetapi untuk membangun objek pertama kali. Karena itu Java tidak memberi return type (bahkan void pun tidak ada), karena proses pembentukan objek sudah di-handle otomatis oleh sistem ketika instance dibuat.
