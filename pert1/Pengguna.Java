@@ -1,4 +1,4 @@
-class Pengguna {
+public class Pengguna {
     // Tuliskan state (variabel) yang diperlukan di sini
     // Jangan lupa tambahkan konstanta faktorAktivitas
     
